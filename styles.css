@@ -9,13 +9,13 @@ body {
     flex-direction: column;
 }
 
-a, .hero-subtext {
+a, .hero-subtext, .cta-subtext {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none; 
 }
 
-.header-logo {
+.header-logo, .cta-text {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
@@ -120,4 +120,22 @@ button {
 .author {
     font-weight: bold;
     align-self: flex-end;
+}
+
+/* CALL TO ACTION SECTION */
+.call-to-action-container {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action-float {
+    background-color: #3882F6;
+    margin: 250px;
+    width: 600px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
 }
