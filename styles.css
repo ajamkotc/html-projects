@@ -93,4 +93,30 @@ button {
 .card {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* INSPIRATIONAL QUOTE */
+.inspirational-quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-weight: bold;
+    align-self: flex-end;
 }
