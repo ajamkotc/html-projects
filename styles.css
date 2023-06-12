@@ -57,3 +57,40 @@ button {
     color: #F9FAF8;
     font-weight: bold;
 }
+
+/* RANDOM INFORMATION SECTION */
+.information-img, .subtext {
+    height: 175px;
+    width: 175px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.information-img {
+    border: 3px solid #3882F6;
+    margin-bottom: 5px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 50px;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
