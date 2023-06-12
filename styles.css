@@ -41,6 +41,7 @@ a, .hero-subtext {
 .hero-content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-text-content {
@@ -88,12 +89,12 @@ button {
     display: flex;
     gap: 50px;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 /* INSPIRATIONAL QUOTE */
